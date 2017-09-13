@@ -37,4 +37,7 @@ $upd_post->title = "Some title";
 $upd_post->content = addslashes("<p>Paragraph 1</p><p>Paragraph 2</p>");
 $upd_post->photo = "some_photo.png";
 $upd_post->updatePost();
+
+Delete Post:
+Post::remove(71);
 */

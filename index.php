@@ -31,13 +31,13 @@
     </nav>
     <div class="col-sm-7 col-md-offset-1">
       <?php
-      $page = $_GET['page'];
 
       if(!isset($_GET['page'])){
 
         require "views/blogs_1.php";
       }else{
-
+        $page = $_GET['page'];
+        
         require "views/".$page.".php";
       }
       ?>
